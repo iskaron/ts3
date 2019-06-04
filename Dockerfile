@@ -21,6 +21,6 @@ ENV LC_ALL de_DE.UTF-8
 RUN ln -s /opt/teamspeak3-server_linux_amd64 /opt/ts3
 
 ENV TS_VERSION 3.8.0
-RUN wget -O - http://dl.4players.de/ts/releases/$TS_VERSION/teamspeak3-server_linux_amd64-$TS_VERSION.tar.bz2 | tar xvfj - -C /opt
+RUN wget -O - https://files.teamspeak-services.com/releases/server/$TS_VERSION/teamspeak3-server_linux_amd64-$TS_VERSION.tar.bz2 | tar xvfj - -C /opt
 
 
